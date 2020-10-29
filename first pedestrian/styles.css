@@ -1,0 +1,31 @@
+h2 {
+    color: rgb(144, 207, 218);
+}
+li {
+    list-style-type: square;
+    color: brown;
+}
+h3 {
+    background-color: burlywood;
+}
+.special {
+    font-size: x-large;
+    color: cornsilk;
+}
+p {
+    color: cornsilk;
+}
+li.special {
+    list-style-type: square;
+    color: cornsilk;
+    font-size: initial;
+}
+li em {
+    color: lavenderblush;
+}
+h2+p {
+    color: lightgreen;
+}
+h2 + p span {
+    color: red;
+}
